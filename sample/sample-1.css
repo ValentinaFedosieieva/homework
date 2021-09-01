@@ -1,0 +1,33 @@
+body {
+	box-sizing: border-box;
+}
+header {
+	display: block;
+	width: 100%;
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+header .header-logo {
+	font-size: 40px;
+	text-decoration: none;
+}
+a h3 {
+	display: inline-block;
+}
+header nav {
+	width: 400px;
+	/*display: inline-block;*/
+	float: right;
+	margin-right: 26px;
+	
+}
+header nav .header-sign-btn {
+	display: inline-block;
+}
+main section, footer {
+	padding: 100px;
+}
+.header-img {
+	float: right;
+	
+}
