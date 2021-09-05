@@ -18,6 +18,7 @@ a {
 }
 
 .menu-item {
+	width: 19%;
 	text-align: justify;
 	display: inline-block;
 	padding-left: 70px;
@@ -29,7 +30,7 @@ main {
 	font-size: 18px;
 }
 aside {
-	width: 280px;
+	width: 20%;
 	height: 380px;
 	line-height: 25px;
 	background-color: #7d0909;
@@ -39,14 +40,14 @@ aside {
 	vertical-align: top;
 }
 .main-text {
-	width: 1240px;
+	width: 65%;
 	height: 380px;
 	display: inline-block;
 	color: #fff;
 	vertical-align: top;
 }
 .main-title {
-	width: 180px;
+	width: 12%;
 	height: 380px;
 	background-color: #fff;
 	display: inline-block;
