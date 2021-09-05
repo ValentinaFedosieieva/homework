@@ -1,3 +1,9 @@
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins-Bold.ttf),
+	url(fonts/Poppins-Regular.ttf),
+	url(fonts/Poppins-SemiBold.ttf);
+}
 body {
 	box-sizing: border-box;
 	font-family: Poppins;
@@ -5,23 +11,25 @@ body {
 header {
 	display: block;
 	width: 100%;
-	padding: 0 145px;
+	padding: 0 10%;
 	box-sizing: border-box;
 }
 header .header-logo {
+	width: 15%;
 	font-size: 28px;
 	text-decoration: none;
 	color: #173A56;
+	display: inline-block;
 }
 a h3 {
 	display: inline-block;
 }
 header nav {
-	width: 600px;
-	float: right;
+	width: 50%;
 	margin-right: 32px;
 	margin-top: 50px;
-	
+	display: inline-block;
+	margin-left: 22%;
 }
 header nav a {
 	text-decoration: none;
@@ -30,16 +38,40 @@ header nav a {
 	color: #173A56;
 	margin-right: 32px;	
 }
-header nav .header-sign-btn {
+.header-sign-btn {
 	display: inline-block;
+}
+.header-sign-btn button:first-child {
+	margin-right:14px;
+	border: 1px solid #BCD0E5;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 102px;
+	height: 46px;
+}
+.header-sign-btn button:nth-child(2) {
+	background-color: #FF9900;
+	border-radius: 5px;
+	border-color: #FF9900;
+	width: 110px;
+	height: 46px;
+	color: #fff;
+}
+.submit p {
 	font-size: 16px;
-	line-height: auto;
+	line-height: 24px;
+	font-weight: 600;
 }
 main section, footer {
-	padding: 145px;
+	padding: 10%;
 }
-.header-img {
-	float: right;
+.header-text {
+	width: 37%;
+	height: 23%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 50px;
 }
 .header-text h1 {
 	font-size: 44px;
@@ -51,4 +83,32 @@ main section, footer {
 	font-size: 18px;
 	line-height: 28px;
 	color: #544837;
+}
+.arrow {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 17px;
+	border-color: transparent transparent transparent #FF9900;
+	margin-right: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-text button {
+	background-color: #FF9900;
+	margin-top: 58px;
+	width: 175px;
+	height: 53px;
+	margin-right: 30px;
+	color: #fff;
+	border-radius: 5px;
+	border-color: #FF9900;
+}
+.header-img {
+	display: inline-block;
+}
+.header-text a {
+	color: #FF9900;
+	font-weight: semibold;
+	font-size: 16px;
 }
