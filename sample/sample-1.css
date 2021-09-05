@@ -112,3 +112,40 @@ main section, footer {
 	font-weight: semibold;
 	font-size: 16px;
 }
+.feature {
+
+}
+.feature-heading {
+	text-align: center;
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	font-style: normal;
+	color: #2F281E;
+}
+.feature-card {
+	padding-top: 66px;
+}
+.card{
+display: inline-block;
+width: 17%;
+vertical-align: middle;
+padding-right: 6%;
+}
+.card:last-child {
+	/*padding-top: 68px;*/
+}
+.card h3 {
+	font-size: 22px;
+	line-height: 33px;
+	font-style: normal;
+	font-weight: 600;
+	color: #2F281E;
+}
+.card p {
+	font-size: 16px;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: 500;
+	color: #544837;
+}
