@@ -13,9 +13,10 @@ header {
 	width: 100%;
 	padding: 0 10%;
 	box-sizing: border-box;
+	margin-top: 50px;
 }
 header .header-logo {
-	width: 15%;
+	width: 49%;
 	font-size: 28px;
 	text-decoration: none;
 	color: #173A56;
@@ -25,11 +26,8 @@ a h3 {
 	display: inline-block;
 }
 header nav {
-	width: 50%;
-	margin-right: 32px;
-	margin-top: 50px;
+	width: 49%;
 	display: inline-block;
-	margin-left: 22%;
 }
 header nav a {
 	text-decoration: none;
@@ -41,32 +39,31 @@ header nav a {
 .header-sign-btn {
 	display: inline-block;
 }
+.header-sign-btn button {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	border-radius: 5px;
+}
 .header-sign-btn button:first-child {
 	margin-right:14px;
-	border: 1px solid #BCD0E5;
-	border-radius: 5px;
+	border: 1px solid #173A56;
 	box-sizing: border-box;
 	width: 102px;
 	height: 46px;
 }
 .header-sign-btn button:nth-child(2) {
 	background-color: #FF9900;
-	border-radius: 5px;
 	border-color: #FF9900;
 	width: 110px;
 	height: 46px;
 	color: #fff;
 }
-.submit p {
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 600;
-}
 main section, footer {
-	padding: 10%;
+	padding: 4% 10%;
 }
 .header-text {
-	width: 37%;
+	width: 49%;
 	height: 23%;
 	display: inline-block;
 	text-align: left;
@@ -103,17 +100,18 @@ main section, footer {
 	color: #fff;
 	border-radius: 5px;
 	border-color: #FF9900;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
 }
 .header-img {
+	width: 49%;
 	display: inline-block;
 }
 .header-text a {
 	color: #FF9900;
 	font-weight: semibold;
 	font-size: 16px;
-}
-.feature {
-
 }
 .feature-heading {
 	text-align: center;
@@ -126,15 +124,16 @@ main section, footer {
 .feature-card {
 	padding-top: 66px;
 }
-.card{
+.card {
 display: inline-block;
 width: 17%;
-vertical-align: middle;
+vertical-align: top;
 padding-right: 6%;
 }
 .card:last-child {
-	/*padding-top: 68px;*/
-}
+	padding-top: 68px;
+	padding-right: 0;
+	}
 .card h3 {
 	font-size: 22px;
 	line-height: 33px;
@@ -148,4 +147,145 @@ padding-right: 6%;
 	font-style: normal;
 	font-weight: 500;
 	color: #544837;
+}
+.feature-btn {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding-top: 35px;
+}
+.feature-btn button {
+	background-color: #FF9900;
+	width: 175px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #FF9900;
+	color: #fff;
+	font-weight: bold;
+}
+.validation-text {
+	width: 49%;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 26px;
+	color: #544837;
+	vertical-align: top;
+}
+.validation-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color: #2F281E;
+	padding-left: 11px;
+	margin-bottom: 25px;
+}
+.validation-text-item {
+	margin-bottom: 25px;
+}
+/*.validation-text-item:first-child{
+	margin-top: 30px;
+}*/???
+.validation-text-item p:first-child {
+	padding-bottom: 12px;
+	font-weight: 700;
+	color: #2F281E;
+}
+.validation-img {
+	width: 49%;
+	display: inline-block;
+}
+.PM-img {
+	width: 49%;
+	display: inline-block;
+}
+.PM-text {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 26px;
+}
+.PM-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color: #2F281E;
+	padding-bottom: 22px;
+}
+.PM-text-item {
+	padding-top: 30px;
+}
+.PM-icon {
+	display: inline-block;
+	padding-right: 30px;
+}
+.PM-text-item p {
+	display: inline-block;
+}
+.marketers-text {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 26px;
+}
+.marketers-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color:  #2F281E;
+	padding-bottom: 22px;
+}
+.marketers-text-item {
+	padding-top: 30px;
+}
+.marketers-img {
+	width: 49%;
+	display: inline-block;
+}
+.footer-logo {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+footer h3{
+	width: 24%;
+	display: inline-block;
+	font-size: 28px;
+	color: #173A56;
+	vertical-align: top;
+}
+footer ul {
+	display: inline-block;
+	width: 24%;
+	height: 205px;
+	list-style: none;
+}
+footer ul a {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 35px;
+	color: #544837;
+}
+.footer-form {
+	width: 24%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.footer-form input {
+	width: 325px;
+	height: 48px;
+	margin-bottom: 21px;
+}
+.footer-btn {
+	width: 131px;
+	height: 39px;
+	font-size: 16px;
+	line-height: 24px;
+	background-color: #FF9900;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 700;
+	border-color: #FF9900;
 }
