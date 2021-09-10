@@ -1,0 +1,161 @@
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins-Bold.ttf),
+	url(fonts/Poppins-Regular.ttf),
+	url(fonts/Poppins-SemiBold.ttf);
+}
+body {
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+header {
+	display: block;
+	width: 100%;
+	padding: 0 10%;
+	box-sizing: border-box;
+}
+header .header-logo {
+	width: 15%;
+	font-size: 28px;
+	text-decoration: none;
+	color: #173A56;
+	display: inline-block;
+}
+a h3 {
+	display: inline-block;
+}
+header nav {
+	width: 50%;
+	margin-right: 32px; /* невижу смыслав етом стиле*/
+	margin-top: 50px; /*Если ты хотела отодвинуть хедер от верхнего края - то тогда нужно было етот стил задавать не тут, а на весь хедер.
+	Такая ошибка приводит к долгим поискам, потому как непонятно почему радителя так "раздуло". 
+	*/
+	display: inline-block;
+	margin-left: 22%;/*для начала изучения такая запись - нормальна. Но для адаптивности нужно будет исправлять - Есть решения получше
+	Также на большом разрешении меню находится не справой стороны.
+	*/
+}
+header nav a {
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 28px;
+	color: #173A56;
+	margin-right: 32px;
+}
+.header-sign-btn {
+	display: inline-block;
+}
+.header-sign-btn button:first-child {
+	margin-right:14px;
+	border: 1px solid #BCD0E5;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 102px;
+	height: 46px;
+}
+.header-sign-btn button:nth-child(2) {
+	background-color: #FF9900;
+	border-radius: 5px;
+	border-color: #FF9900;
+	width: 110px;
+	height: 46px;
+	color: #fff;
+}
+.submit p {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+main section, footer {
+	padding: 10%;
+}
+.header-text {
+	width: 37%; /*не бойся давать блокам больше места 49%. Темболие что он определяет расположение*/
+	height: 23%;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 50px;
+}
+.header-text h1 {
+	font-size: 44px;
+	line-height: 54px;
+	font-weight: bold;
+	color: #2F281E;
+}
+.header-text p {
+	font-size: 18px;
+	line-height: 28px;
+	color: #544837;
+}
+.arrow {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 17px;
+	border-color: transparent transparent transparent #FF9900;
+	margin-right: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-text button {
+	background-color: #FF9900;
+	margin-top: 58px;
+	width: 175px;
+	height: 53px;
+	margin-right: 30px;
+	color: #fff;
+	border-radius: 5px;
+	border-color: #FF9900;
+}
+.header-img { /* потому что ты задала одному 37%, а второй блок взял сколько захотел.
+	Блоки стали не поцентру. Посмотри на большом разрешении*/
+	display: inline-block;
+	/*не бойся давать блокам больше места 49%. Темболие что он определяет расположение*/
+}
+.header-text a {
+	color: #FF9900;
+	font-weight: semibold;
+	font-size: 16px;
+}
+.feature {
+/* Большое растояние между секциями */
+}
+.feature-heading {
+	text-align: center;
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	font-style: normal;
+	color: #2F281E;
+}
+.feature-card {
+	padding-top: 66px;
+}
+.card{
+	display: inline-block;
+	width: 17%;
+	vertical-align: middle;
+	padding-right: 6%;
+}
+.card:last-child {
+	/* у последнего недолжно быть правого бадинга. Используй псевдо-класс исключения */
+	/*padding-top: 68px;*/
+}
+.card h3 {
+	font-size: 22px;
+	line-height: 33px;
+	font-style: normal;
+	font-weight: 600;
+	color: #2F281E;
+}
+.card p {
+	font-size: 16px;
+	line-height: 26px;
+	font-style: normal;
+	font-weight: 500;
+	color: #544837;
+}
+/*
+ В целом Хорошо. Ошибки не критичные, и очень легко исправляются.  
+*/
