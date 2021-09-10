@@ -125,15 +125,15 @@ main section, footer {
 	padding-top: 66px;
 }
 .card {
-display: inline-block;
-width: 17%;
-vertical-align: top;
-padding-right: 6%;
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+	padding-right: 6%;
 }
 .card:last-child {
 	padding-top: 68px;
 	padding-right: 0;
-	}
+}
 .card h3 {
 	font-size: 22px;
 	line-height: 33px;
