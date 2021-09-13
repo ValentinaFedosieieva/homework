@@ -1,9 +1,12 @@
+<<<<<<< HEAD
+=======
 @font-face {
 	font-family: Poppins;
 	src: url(fonts/Poppins-Bold.ttf),
 	url(fonts/Poppins-Regular.ttf),
 	url(fonts/Poppins-SemiBold.ttf);
 }
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 body {
 	box-sizing: border-box;
 	font-family: Poppins;
@@ -13,9 +16,16 @@ header {
 	width: 100%;
 	padding: 0 10%;
 	box-sizing: border-box;
+<<<<<<< HEAD
+	margin-top: 50px;
+}
+header .header-logo {
+	width: 49%;
+=======
 }
 header .header-logo {
 	width: 15%;
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 	font-size: 28px;
 	text-decoration: none;
 	color: #173A56;
@@ -25,6 +35,12 @@ a h3 {
 	display: inline-block;
 }
 header nav {
+<<<<<<< HEAD
+	width: 49%;
+	display: inline-block;
+	width: 50%;
+	display: inline-block;
+=======
 	width: 50%;
 	margin-right: 32px; /* невижу смыслав етом стиле*/
 	margin-top: 50px; /*Если ты хотела отодвинуть хедер от верхнего края - то тогда нужно было етот стил задавать не тут, а на весь хедер.
@@ -34,6 +50,7 @@ header nav {
 	margin-left: 22%;/*для начала изучения такая запись - нормальна. Но для адаптивности нужно будет исправлять - Есть решения получше
 	Также на большом разрешении меню находится не справой стороны.
 	*/
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 }
 header nav a {
 	text-decoration: none;
@@ -45,22 +62,44 @@ header nav a {
 .header-sign-btn {
 	display: inline-block;
 }
+<<<<<<< HEAD
+.header-sign-btn button {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.header-sign-btn button:first-child {
+	margin-right:14px;
+	border: 1px solid #173A56;
+=======
 .header-sign-btn button:first-child {
 	margin-right:14px;
 	border: 1px solid #BCD0E5;
 	border-radius: 5px;
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 	box-sizing: border-box;
 	width: 102px;
 	height: 46px;
 }
 .header-sign-btn button:nth-child(2) {
 	background-color: #FF9900;
+<<<<<<< HEAD
+=======
 	border-radius: 5px;
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 	border-color: #FF9900;
 	width: 110px;
 	height: 46px;
 	color: #fff;
 }
+<<<<<<< HEAD
+main section, footer {
+	padding: 4% 10%;
+}
+.header-text {
+	width: 49%;
+=======
 .submit p {
 	font-size: 16px;
 	line-height: 24px;
@@ -71,6 +110,7 @@ main section, footer {
 }
 .header-text {
 	width: 37%; /*не бойся давать блокам больше места 49%. Темболие что он определяет расположение*/
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 	height: 23%;
 	display: inline-block;
 	text-align: left;
@@ -107,20 +147,33 @@ main section, footer {
 	color: #fff;
 	border-radius: 5px;
 	border-color: #FF9900;
+<<<<<<< HEAD
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.header-img {
+	width: 49%;
+	display: inline-block;
+=======
 }
 .header-img { /* потому что ты задала одному 37%, а второй блок взял сколько захотел.
 	Блоки стали не поцентру. Посмотри на большом разрешении*/
 	display: inline-block;
 	/*не бойся давать блокам больше места 49%. Темболие что он определяет расположение*/
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 }
 .header-text a {
 	color: #FF9900;
 	font-weight: semibold;
 	font-size: 16px;
 }
+<<<<<<< HEAD
+=======
 .feature {
 /* Большое растояние между секциями */
 }
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 .feature-heading {
 	text-align: center;
 	font-size: 36px;
@@ -132,16 +185,32 @@ main section, footer {
 .feature-card {
 	padding-top: 66px;
 }
+<<<<<<< HEAD
+.card {
+	display: inline-block;
+	width: 18%;
+	vertical-align: top;
+	padding-right: 7%;
+}
+.card:last-child {
+	padding-top: 68px;
+	padding-right: 0;
+}
+=======
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 .card{
 	display: inline-block;
 	width: 17%;
 	vertical-align: middle;
 	padding-right: 6%;
 }
+<<<<<<< HEAD
+=======
 .card:last-child {
 	/* у последнего недолжно быть правого бадинга. Используй псевдо-класс исключения */
 	/*padding-top: 68px;*/
 }
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4
 .card h3 {
 	font-size: 22px;
 	line-height: 33px;
@@ -156,6 +225,147 @@ main section, footer {
 	font-weight: 500;
 	color: #544837;
 }
+<<<<<<< HEAD
+.feature-btn {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding-top: 35px;
+}
+.feature-btn button {
+	background-color: #FF9900;
+	width: 175px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #FF9900;
+	color: #fff;
+	font-weight: bold;
+}
+.validation-text {
+	width: 49%;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 26px;
+	color: #544837;
+	vertical-align: top;
+}
+.validation-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color: #2F281E;
+	padding-left: 11px;
+	margin-bottom: 25px;
+}
+.validation-text-item {
+	margin-bottom: 25px;
+}
+.validation-text-item p:first-child {
+	padding-bottom: 12px;
+	font-weight: 700;
+	color: #2F281E;
+}
+.validation-img {
+	width: 49%;
+	display: inline-block;
+}
+.PM-img {
+	width: 49%;
+	display: inline-block;
+}
+.PM-text {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 26px;
+}
+.PM-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color: #2F281E;
+	padding-bottom: 22px;
+}
+.PM-text-item {
+	padding-top: 30px;
+}
+.PM-icon {
+	display: inline-block;
+	padding-right: 30px;
+}
+.PM-text-item p {
+	display: inline-block;
+}
+.marketers-text {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	line-height: 26px;
+}
+.marketers-text h2 {
+	font-size: 36px;
+	line-height: 54px;
+	font-weight: 700;
+	color:  #2F281E;
+	padding-bottom: 22px;
+}
+.marketers-text-item {
+	padding-top: 30px;
+}
+.marketers-img {
+	width: 49%;
+	display: inline-block;
+}
+.footer-logo {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+footer h3{
+	width: 24%;
+	display: inline-block;
+	font-size: 28px;
+	color: #173A56;
+	vertical-align: top;
+}
+footer ul {
+	display: inline-block;
+	width: 24%;
+	height: 205px;
+	list-style: none;
+}
+footer ul a {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 35px;
+	color: #544837;
+}
+.footer-form {
+	width: 24%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.footer-form input {
+	width: 325px;
+	height: 48px;
+	margin-bottom: 21px;
+}
+.footer-btn {
+	width: 131px;
+	height: 39px;
+	font-size: 16px;
+	line-height: 24px;
+	background-color: #FF9900;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 700;
+	border-color: #FF9900;
+}
+=======
 /*
  В целом Хорошо. Ошибки не критичные, и очень легко исправляются.  
 */
+>>>>>>> b5d99c3b7932b08da00392b5bd82fe8fc51046b4

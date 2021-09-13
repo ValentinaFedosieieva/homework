@@ -1,0 +1,124 @@
+body{
+	
+}
+header {
+
+}
+.title {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+h3 {
+	width: 100%;
+	color: #898f99;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 4.8px;
+	line-height: normal;
+	margin: 20px auto;
+	display: inline-block;
+	
+}
+.heading {
+	width: 100%;
+	color: #0ec8cb;
+	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 4.8px;
+	line-height: normal;
+	margin: 44px auto;
+	display: inline-block;
+	
+}
+.about {
+	width: 35%;
+	height: 43px;
+	color: #999999;
+	font-family: "PT Sans";
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+main {
+	padding: 5% 17%;
+}
+.iconbox {
+	display: inline-block;
+	width: 24%;
+	height: 420px;
+	background-color: #f7f7f7;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 55px;
+	/*opacity: 0.1;*/
+}
+.iconbox:hover {
+	background-color: #0ec8cb;
+}
+.icon {
+	display: inline-block;
+}
+.iconbox h2 {
+	width: 80%;
+	color: #1b1b1b;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	margin: 0 auto;
+	padding-bottom: 55px;
+	padding-top: 33px;
+}
+.iconbox h2:hover {
+	color: #fff;
+}
+.iconbox p {
+	width: 80%;
+	color: #777777;
+	font-family: "PT Sans";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 22px;
+	text-align: center;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	margin: 0 auto;
+}
+.iconbox p:hover {
+	color: #fff;
+}

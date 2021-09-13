@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	background-image: url(images/header-img.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	padding-left: 165px;
+}
+.header-logo {
+	display: inline-block;
+}
+header .menu {
+	width: 80%;
+	display: inline-block;
+	text-align: right;
+}
+.menu-item {
+	display: inline-block;
+	padding-right: 30px;
+}
+.menu-item a {
+	text-decoration: none;
+	color: #262626;
+	text-transform: uppercase;
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	padding-top: 9px;
+}
+.menu-item a:hover {
+	border-top: 3px solid #ff6033;;
+}
+.info {
+	padding-top: 258px;
+}
+.info h1 {
+	color: #262626;
+	font-size: 60px;
+	line-height: 25px;
+	font-weight: 400;
+	text-align: left;
+	padding-bottom: 34px;
+}
+.info p {
+	color: #262626;
+	font-size: 17px;
+	line-height: 27px;
+	text-align: left;
+	width: 30%;
+	padding-bottom: 31px;
+}
+.header-btn {
+	padding: 20px 25px;
+	color: #fff;
+	background-color: #ff6033;
+	font-size: 20px;
+	line-height: 27px;
+	font-family: Raleway;
+	text-transform: uppercase;
+	font-weight: 300;
+	border: none;
+}
+.header-scroll {
+	position: relative;
+}
+.header-scroll-icon {
+	position: absolute;
+	top: 295px;
+	left: 600px;
+}
+main .about {
+	background-color: #00c4c4;
+	color: #fff;
+}
+main .about-img {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+main .about-info {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	padding-top: 60px;
+	padding-left: 94px;
+}
+.about-info h2 {
+	font-size: 90px;
+	line-height: 27px;
+	font-family: Raleway;
+	font-weight: 700;
+	padding-bottom: 34px;
+	display: inline-block;
+	text-align: left;
+}
+.about-info p {
+	width: 69%;
+	font-size: 17px;
+	line-height: 27px;
+	font-family: Raleway;
+	font-weight: 300;
+	padding-bottom: 34px;
+	display: inline-block;
+	text-align: left;
+}
