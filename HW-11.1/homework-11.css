@@ -1,0 +1,44 @@
+body {
+	background-color: #FDDE7E;
+}
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 800px;
+}
+.container-block {
+	width: 361px;
+	height: 441px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.container-block:nth-child(2) {
+	height: 500px;
+}
+.container-block img {
+	width: 135px;
+	height: 145px;
+}
+.price {
+color: #02995b;
+/*font-family: Miso;*/
+font-size: 70px;
+font-weight: 700;
+line-height: 24px;
+}
+.container-block h2 {
+	font-size: 56px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.container-block p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #333333;
+	width: 50%;
+	text-align: center;
+}
