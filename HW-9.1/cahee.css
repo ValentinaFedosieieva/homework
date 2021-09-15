@@ -9,7 +9,7 @@ header {
 	height: 1000px;
 	padding-left: 165px;
 }
-.header-logo {
+.header-logo { /* а куда вложен класс header-logo ? */
 	display: inline-block;
 }
 header .menu {
@@ -21,7 +21,7 @@ header .menu {
 	display: inline-block;
 	padding-right: 30px;
 }
-.menu-item a {
+.menu-item a {/* а куда вложен класс menu-item ? */
 	text-decoration: none;
 	color: #262626;
 	text-transform: uppercase;
@@ -34,7 +34,7 @@ header .menu {
 .menu-item a:hover {
 	border-top: 3px solid #ff6033;;
 }
-.info {
+.info { /* а куда вложен класс info ? чей ето блок info, какой секции/скрина ?? */
 	padding-top: 258px;
 }
 .info h1 {
@@ -53,7 +53,7 @@ header .menu {
 	width: 30%;
 	padding-bottom: 31px;
 }
-.header-btn {
+.header-btn { /* куда вложен класс header-btn ?  в хедере кнопок нету, там ссылки */
 	padding: 20px 25px;
 	color: #fff;
 	background-color: #ff6033;
@@ -64,7 +64,7 @@ header .menu {
 	font-weight: 300;
 	border: none;
 }
-.header-scroll {
+.header-scroll { /* куда вложен класс ? разве у хедера есть прокрутка ? */
 	position: relative;
 }
 .header-scroll-icon {
@@ -76,7 +76,7 @@ main .about {
 	background-color: #00c4c4;
 	color: #fff;
 }
-main .about-img {
+main .about-img { /* классы about-img и about на одном уровне вложенности ? */
 	display: inline-block;
 	width: 49%;
 	vertical-align: middle;
@@ -89,21 +89,24 @@ main .about-info {
 	padding-left: 94px;
 }
 .about-info h2 {
-	font-size: 90px;
-	line-height: 27px;
-	font-family: Raleway;
-	font-weight: 700;
+	font-size: 90px; /* ето стиль наследуемый */
+	line-height: 27px; /* ето стиль наследуемый */
+	font-family: Raleway; /* ето стиль наследуемый */
+	font-weight: 700; /* ето стиль наследуемый */
 	padding-bottom: 34px;
 	display: inline-block;
-	text-align: left;
+	text-align: left; /* ето стиль наследуемый */
 }
 .about-info p {
-	width: 69%;
-	font-size: 17px;
-	line-height: 27px;
-	font-family: Raleway;
-	font-weight: 300;
+	width: 69%; /* нужно ограничивать не етот блок а родительский */
+	font-size: 17px; /* ето стиль наследуемый */
+	line-height: 27px; /* ето стиль наследуемый */
+	font-family: Raleway; /* ето стиль наследуемый */
+	font-weight: 300; /* ето стиль наследуемый */
 	padding-bottom: 34px;
 	display: inline-block;
-	text-align: left;
+	text-align: left; /* ето стиль наследуемый */
+	/* А ето стиль наследуемый - то можно .... */
+
+	/* Плохо - много замечаний. Видно спешила. */
 }
