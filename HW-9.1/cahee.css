@@ -1,15 +1,17 @@
 * {
 	box-sizing: border-box;
 }
-header {
+.background {
 	background-image: url(images/header-img.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1000px;
+}
+header {
+	height: 112px;
 	padding-left: 165px;
 }
-.header-logo { /* а куда вложен класс header-logo ? */
+header a .header-logo { /* а куда вложен класс header-logo ? *//*теперь уже исправила, в ссылку. а вообще в хэдэр*/
 	display: inline-block;
 }
 header .menu {
@@ -17,11 +19,11 @@ header .menu {
 	display: inline-block;
 	text-align: right;
 }
-.menu-item {
+header .menu-items li {
 	display: inline-block;
 	padding-right: 30px;
 }
-.menu-item a {/* а куда вложен класс menu-item ? */
+header .menu-items a {/* а куда вложен класс menu-item ? */ /*в nav и потом в хэдэр*/
 	text-decoration: none;
 	color: #262626;
 	text-transform: uppercase;
@@ -31,13 +33,16 @@ header .menu {
 	line-height: 25px;
 	padding-top: 9px;
 }
-.menu-item a:hover {
-	border-top: 3px solid #ff6033;;
+header .menu-items a:hover {
+	border-top: 3px solid #ff6033;
 }
-.info { /* а куда вложен класс info ? чей ето блок info, какой секции/скрина ?? */
+main .info {
+	height: 800px;
+}
+main .info .info-text { /* а куда вложен класс info ? чей ето блок info, какой секции/скрина ?? *//*исправила.*/
 	padding-top: 258px;
 }
-.info h1 {
+main .info .info-text h1 {
 	color: #262626;
 	font-size: 60px;
 	line-height: 25px;
@@ -45,7 +50,7 @@ header .menu {
 	text-align: left;
 	padding-bottom: 34px;
 }
-.info p {
+main .info .info-text p {
 	color: #262626;
 	font-size: 17px;
 	line-height: 27px;
@@ -53,7 +58,8 @@ header .menu {
 	width: 30%;
 	padding-bottom: 31px;
 }
-.header-btn { /* куда вложен класс header-btn ?  в хедере кнопок нету, там ссылки */
+main .info .header-btn { /* куда вложен класс header-btn ?  в хедере кнопок нету, там ссылки *//*исправила, но там
+	сложность с бэкграундом получилась, я поэтому и делала все в одину секцию хэдэр, чтоб фоном картинка нормально была*/
 	padding: 20px 25px;
 	color: #fff;
 	background-color: #ff6033;
@@ -64,49 +70,55 @@ header .menu {
 	font-weight: 300;
 	border: none;
 }
-.header-scroll { /* куда вложен класс ? разве у хедера есть прокрутка ? */
-	position: relative;
-}
-.header-scroll-icon {
-	position: absolute;
-	top: 295px;
-	left: 600px;
+
+.info-scroll-icon {
+	
 }
 main .about {
+	width: 69%;
 	background-color: #00c4c4;
 	color: #fff;
 }
-main .about-img { /* классы about-img и about на одном уровне вложенности ? */
+main img .about-img { /* классы about-img и about на одном уровне вложенности ? */ /*добавила тег.*/
 	display: inline-block;
 	width: 49%;
 	vertical-align: middle;
 }
-main .about-info {
+main .about .about-info {
 	display: inline-block;
 	width: 49%;
 	vertical-align: middle;
 	padding-top: 60px;
 	padding-left: 94px;
+	line-height: 27px;
+	font-family: Raleway;
+	text-align: left;
 }
-.about-info h2 {
-	font-size: 90px; /* ето стиль наследуемый */
-	line-height: 27px; /* ето стиль наследуемый */
-	font-family: Raleway; /* ето стиль наследуемый */
+main .about .about-info h2 {
+	font-size: 90px; /* ето стиль наследуемый *//*но ведь размер шрифта отличается у h и у параграфов*/
+	 /* ето стиль наследуемый */
+	 /* ето стиль наследуемый */
 	font-weight: 700; /* ето стиль наследуемый */
 	padding-bottom: 34px;
 	display: inline-block;
-	text-align: left; /* ето стиль наследуемый */
+   /* ето стиль наследуемый */
 }
-.about-info p {
-	width: 69%; /* нужно ограничивать не етот блок а родительский */
-	font-size: 17px; /* ето стиль наследуемый */
-	line-height: 27px; /* ето стиль наследуемый */
-	font-family: Raleway; /* ето стиль наследуемый */
-	font-weight: 300; /* ето стиль наследуемый */
+main .about .about-info p {
+	 /* нужно ограничивать не етот блок а родительский */
+	font-size: 17px; /* ето стиль наследуемый */ /*не пойму, размер шрифта же разный*/
+	/* ето стиль наследуемый */
+	 /* ето стиль наследуемый */
+	font-weight: 300; /* ето стиль наследуемый */ /*тоже разная толщина у h и параграфа*/
 	padding-bottom: 34px;
 	display: inline-block;
-	text-align: left; /* ето стиль наследуемый */
-	/* А ето стиль наследуемый - то можно .... */
+	 /* ето стиль наследуемый */
+	/* А ето стиль наследуемый - то можно .... *//*задать родительскому блоку, там все кроме размера и толщины шрифта 
+	вроде бы можно*/
 
 	/* Плохо - много замечаний. Видно спешила. */
+	/* Наверно... и из-за того, что хэдэр сделала на весь первый скрин, чтоб бэкграунд поставить. Сейчас разделила
+	 и обернула в див хэдэр и первую секцию, не знаю, так правильно или нет.*/
+	 /* со скроллом еще поищу решение. но запомнилось с урока, что ты показывал располагать иконки свгшки поизицией абсолют
+	 и родителю релатив. див вокруг свг убрала. теперь относительно основной секции располагать
+	  тем же способом релатив/абсолют? */
 }
