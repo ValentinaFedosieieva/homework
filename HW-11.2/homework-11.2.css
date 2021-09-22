@@ -4,7 +4,7 @@ body {
     text-transform: uppercase;
 }
 .container {
-    width: 1140px;
+    width: 1140px; /*ето конечно хорошо что ты перестраховалось но проверить работу без етого стиля )) тебе понравится */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,12 +37,12 @@ body {
 .article-text {
     background-color: #fff;
     padding-left: 30px;
-}
+} /* а куда вложен article-text */
 .article h1 {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-}
+} /* а куда вложен article */
 .article p {
     font-size: 13px;
     line-height: 30px;
@@ -58,9 +58,9 @@ body {
 .loading {
     display: flex;
     margin: 0 auto;
-    padding-top: 87px;
+    padding-top: 87px; /* А если понадобится сделать бордер на блок ? */
     width: 20%;
-}
+} /* а куда вложен loading */
 .loading h5 {
     padding-left: 13px;
     font-size: 13px;
