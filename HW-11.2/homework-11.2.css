@@ -4,7 +4,7 @@ body {
     text-transform: uppercase;
 }
 .container {
-    width: 1140px; /*ето конечно хорошо что ты перестраховалось но проверить работу без етого стиля )) тебе понравится */
+    /*ето конечно хорошо что ты перестраховалось но проверить работу без етого стиля )) тебе понравится */ /*супер!!!*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body {
 .loading {
     display: flex;
     margin: 0 auto;
-    padding-top: 87px; /* А если понадобится сделать бордер на блок ? */
+    margin-top: 87px; /* А если понадобится сделать бордер на блок ? */
     width: 20%;
 } /* а куда вложен loading */
 .loading h5 {
