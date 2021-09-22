@@ -16,14 +16,14 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
-.container-block:nth-child(2) {
+.container-block:nth-child(2) { /* хорошое решение */
 	height: 500px;
 }
 .container-block img {
 	width: 135px;
 	height: 145px;
 }
-.price {
+.container-block .price {
 color: #02995b;
 /*font-family: Miso;*/
 font-size: 70px;
