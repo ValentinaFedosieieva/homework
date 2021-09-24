@@ -1,0 +1,117 @@
+body {
+    background-color: #464f54;
+    padding: 12% 6% 40%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(fonts/Proxima\ Nova\ Regular.woff2);
+}
+@font-face {
+    font-family: FuturaPTHeavy;
+    src: url(fonts/FuturaPTHeavy.woff2);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(fonts/Georgia.woff2);
+}
+header {
+    width: 72.5%;
+    display: inline-block;
+    margin-bottom: -20%;
+}
+header .input {
+    background-color: #000;
+    display: inline-block;
+    width: 95%;
+    margin-left: 45%;
+}
+header .input h5 {
+    color: #767676;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+header .input h2 {
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    border-bottom: 3px solid rgb(255,255,255,0.1);
+    margin-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+header .icons {
+    background-color: #fbc02d;
+    margin-left: auto;
+    display: inline-block;
+    width: 100%;
+    margin-left: 50%;
+    padding: 2%;
+}
+header .icons .icon-item {
+    padding-right: 2%;
+}
+header .icon-item:first-child {
+    padding-left: 3%;
+}
+main{
+    background-color: #fff;
+}
+main section {
+    padding: 20% 21% 2% 10%;
+}
+main section .text-1 {
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 6%;
+}
+main section h1 {
+    color: #2a2a2a;
+    font-family: "Futura PT - Heavy";
+    font-size: 78px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 1%;
+}
+main section .text-2 {
+    color: #8f8f8f;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 6%;
+}
+main section .text-3 {
+    color: #000;
+    font-family: Georgia;
+    font-size: 27px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 4%;
+    
+}
+main section .text-3 span {
+    font-family: "Georgia - Italic";
+    font-weight: undefined;
+    font-style: italic;
+}
+main section .text-4 {
+    color: #000;
+    font-family: Georgia;
+    font-size: 27px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 2%;
+    
+}
