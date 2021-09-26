@@ -1,40 +1,41 @@
-body {
-    background-color: #464f54;
-    padding: 12% 6% 40%;
+* {
     box-sizing: border-box;
+}
+body {
+    position: relative;
+    background-color: #464f54;
+    padding: 150px 0;
+    line-height: 1;
 }
 @font-face {
     font-family: "Proxima Nova";
-    src: url(fonts/Proxima\ Nova\ Regular.woff2);
+    src: url(fonts/Proxima\ Nova\ Regular.woff2) format("woff2");
 }
 @font-face {
     font-family: FuturaPTHeavy;
-    src: url(fonts/FuturaPTHeavy.woff2);
+    src: url(fonts/FuturaPTHeavy.woff2) format("woff2");
 }
 @font-face {
     font-family: Georgia;
-    src: url(fonts/Georgia.woff2);
+    src: url(fonts/Georgia.woff2) format("woff2");
 }
 header {
     width: 72.5%;
-    display: inline-block;
-    margin-bottom: -20%;
+    position: absolute;
+    top: 45px;
+    left: 370px;
 }
 header .input {
     background-color: #000;
-    display: inline-block;
-    width: 95%;
-    margin-left: 45%;
+    padding: 45px 0 45px 60px;
 }
 header .input h5 {
     color: #767676;
     font-family: "Proxima Nova";
     font-size: 15px;
     font-weight: 400;
-    text-align: left;
     text-transform: uppercase;
-    margin-left: 5%;
-    margin-top: 6%;
+    margin-bottom: 5px;
 }
 header .input h2 {
     color: #fefefe;
@@ -42,30 +43,48 @@ header .input h2 {
     font-size: 48px;
     font-weight: 400;
     border-bottom: 3px solid rgb(255,255,255,0.1);
-    margin-top: 1%;
-    padding-bottom: 1%;
-    margin-bottom: 6%;
-    margin-left: 5%;
+    padding-bottom: 15px;
+}
+header .input h2::after {
+    content: "";
+    background-color: #edeff2;
+    opacity: 0.71;
+    width: 2px;
+    height: 40px;
+    margin-left: 5px;
+    display: inline-block;
 }
 header .icons {
     background-color: #fbc02d;
     margin-left: auto;
-    display: inline-block;
-    width: 100%;
-    margin-left: 50%;
-    padding: 2%;
+    width: 90%;
+    padding: 20px 40px;
 }
 header .icons .icon-item {
-    padding-right: 2%;
+    padding-right: 30px;
 }
 header .icon-item:first-child {
-    padding-left: 3%;
+    padding-left: 20px;
 }
 main{
     background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
 }
 main section {
+    position: relative;
     padding: 20% 21% 2% 10%;
+}
+main section::before {
+    content: "";
+    background-color: #e8eced;
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 60px;
+    top: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 main section .text-1 {
     color: #b4b4b4;
@@ -74,7 +93,7 @@ main section .text-1 {
     font-weight: 400;
     text-align: left;
     text-transform: uppercase;
-    padding-bottom: 6%;
+    padding-bottom: 50px;
 }
 main section h1 {
     color: #2a2a2a;
@@ -83,14 +102,14 @@ main section h1 {
     font-weight: 400;
     text-align: left;
     text-transform: uppercase;
-    padding-bottom: 1%;
+    padding-bottom: 10px;
 }
 main section .text-2 {
     color: #8f8f8f;
     font-family: Georgia;
     font-size: 30px;
     font-style: italic;
-    padding-bottom: 6%;
+    padding-bottom: 50px;
 }
 main section .text-3 {
     color: #000;
@@ -98,8 +117,7 @@ main section .text-3 {
     font-size: 27px;
     line-height: 1.5;
     font-weight: 400;
-    padding-bottom: 4%;
-    
+    padding-bottom: 40px;
 }
 main section .text-3 span {
     font-family: "Georgia - Italic";
@@ -112,6 +130,6 @@ main section .text-4 {
     font-size: 27px;
     line-height: 1.5;
     font-weight: 400;
-    padding-bottom: 2%;
-    
+    padding-bottom: 20px;
 }
+
