@@ -7,7 +7,7 @@ body {
     padding: 150px 0;
     line-height: 1;
 }
-@font-face {
+@font-face { /* для удобства шрифты подключай отдельным файлом */
     font-family: "Proxima Nova";
     src: url(fonts/Proxima\ Nova\ Regular.woff2) format("woff2");
 }
@@ -24,6 +24,10 @@ header {
     position: absolute;
     top: 45px;
     left: 370px;
+    /* попытался выделить блок стрелочкой от инспектора, а выбрать немогу
+    поменял absolute на fixed. Стало ясно почему.
+    header - прячится под текст.
+     */
 }
 header .input {
     background-color: #000;
@@ -76,6 +80,7 @@ main section {
     padding: 20% 21% 2% 10%;
 }
 main section::before {
+    /* молодец */
     content: "";
     background-color: #e8eced;
     width: 2px;
@@ -121,7 +126,7 @@ main section .text-3 {
 }
 main section .text-3 span {
     font-family: "Georgia - Italic";
-    font-weight: undefined;
+    font-weight: undefined; /* =)) */
     font-style: italic;
 }
 main section .text-4 {
